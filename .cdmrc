@@ -1,0 +1,3 @@
+tabs:['client/src/App.js','contracts/SimpleStorage.sol']
+terminal-one:cd client && npm install && npm run
+terminal-two:truffle compile && truffle migrate --reset
