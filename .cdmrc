@@ -1,4 +1,4 @@
 tabs: ['client/src/App.js','contracts/SimpleStorage.sol']
-terminal-one: cd client && npm install && npm start
+terminal-one: cd client && yarn install && yarn dev
 terminal-two: truffle compile && truffle migrate --reset
 
