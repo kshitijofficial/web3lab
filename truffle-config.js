@@ -1,6 +1,12 @@
 const path = require("path");
 module.exports = {
-  networks: {},
+    networks: {
+    development: {
+      port: 8545,
+      network_id: "*",
+      host: "localhost",
+    },
+  },
   contracts_build_directory: path.join(__dirname, "client/src/contracts"),
   // Set default mocha options here, use special reporters etc.
   mocha: {
