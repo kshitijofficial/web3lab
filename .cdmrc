@@ -1,5 +1,5 @@
 tabs: ['client/src/App.js','contracts/SimpleStorage.sol']
 terminal-one: cd client && npm install && npm start
 terminal-two: (kill -9 $(lsof -t -i:8545) || true) && ganache-cli
-terminal-three: truffle compile && truffle migrate --reset
+terminal-three: echo "hello"
 
