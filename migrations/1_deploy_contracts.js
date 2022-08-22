@@ -1,5 +1,5 @@
-var SimpleStorage = artifacts.require("./SimpleStorage.sol");
+const Lottery = artifacts.require("./Lottery.sol");
 
-module.exports = function(deployer) {
-  deployer.deploy(SimpleStorage);
+module.exports = function (deployer) {
+  deployer.deploy(Lottery);
 };
