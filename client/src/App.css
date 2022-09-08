@@ -2,10 +2,20 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+body {
+  background-color: #ffe14b;
 }
-
+.navbar {
+  background-color: #000000;
+}
+.navtext {
+  color: white;
+}
+.navtext:hover,
+.navtext:active {
+  background: white;
+  color: black;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
